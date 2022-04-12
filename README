@@ -1,20 +1,20 @@
-### Ce programe permet de reconnaitre certains étudiants de IRISI2
+# Ce programe permet de reconnaitre certains étudiants de IRISI2
 
-#### Pour faire tourner le programme dans votre machine, suivez ces étapes : 
+## Pour faire tourner le programme dans votre machine, suivez ces étapes : 
 
-###### 1- Entrainer le modèle
+## 1- Entrainer le modèle
 Utiliser la commande suivante : 
     $ python training.py
     --> Il permet d'entrainer le modèle avec les images qui existent dans le dossier dataset
     --> le nom des image est : etudiant.IdEtudiant.numImage
     --> l' IdEtudiant correspond à l'id de l'étudiant, il sera utilisé par la suite pour identifier le nom de l'étudiant
-    --> le modèle entrainé est sauvegarder dans un fichier yaml
+    --> le modèle entrainé est sauvegardé dans un fichier yaml
     --> ceci permet de ne pas refaire le training à chaque fois
     --> utiliser cette commande une seule fois pour générer le modèle, ET NON PAS A CHAQUE EXECUTION 
 
 
 
-###### 2- Tester
+## 2- Tester
 La commande suivante permet de lancer la caméra de votre PC, et pour chaque visage reconnu il l'entoure par un triangle et affiche en dessus le nom de l'étudiant reconnu.
     $ python face_detection.py
     --> Si vous voulez utiliser la caméra changer le port (ligne 6 dans le fichier face_recognition.py)
