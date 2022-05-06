@@ -15,7 +15,7 @@ Utiliser la commande suivante :
 
 
 ## 2- Tester
-La commande suivante permet de lancer la caméra de votre PC, et pour chaque visage reconnu il l'entoure par un triangle et affiche en dessus le nom de l'étudiant reconnu.
+La commande suivante permet de lancer la caméra de votre PC, et pour chaque visage reconnu il l'entoure par un rectangle et affiche en dessus le nom de l'étudiant reconnu.
     $ python face_detection.py
     --> Si vous voulez utiliser la caméra changer le port (ligne 6 dans le fichier face_recognition.py)
         Mettez 1 au lieu de 0 (camera_port = 1)
